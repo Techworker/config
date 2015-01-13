@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the Techworker\Uuid package.
+ * This file is part of the Techworker\config package.
  *
  * (c) Benjamin Ansbach <benjaminansbach@googlemail.com>
  *
