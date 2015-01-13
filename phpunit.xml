@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit colors="true" bootstrap="vendor/autoload.php" backupGlobals="true">
+
+    <testsuites>
+        <testsuite>
+            <directory>./tests/</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-text" target="php://stdout"/>
+        <log type="coverage-html" target="docs/coverage"/>
+        <log type="coverage-clover" target="docs/coverage/clover.xml"/>
+        <log type="testdox-html" target="docs/testdox.html"/>
+    </logging>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+            <exclude>
+                <!-- this is for your convenience -->
+                <file>src/Techworker/Config/Explainer.php</file>
+            </exclude>
+        </whitelist>
+
+    </filter>
+</phpunit>

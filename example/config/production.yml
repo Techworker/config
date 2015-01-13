@@ -1,0 +1,15 @@
+#production.yml
+@extends:
+  - %CONFIG_DIR%/global.yml
+
+debug: false
+
+database:
+  username: production
+  password: production
+  host: production-host
+  name: app
+  charset: utf-8
+
+# some common config values
+# ...

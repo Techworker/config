@@ -1,0 +1,12 @@
+@extends:
+  - %CONFIG_DIR%production.yml
+
+@unset:
+  - database::cache
+
+debug: true
+
+database:
+  user: dev
+  pass: dev
+  devmode: true

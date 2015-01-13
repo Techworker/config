@@ -1,0 +1,13 @@
+@extends:
+  - %CONFIG_DIR%/production.yml
+
+debug: true
+
+database:
+  username: development
+  password: development
+  host: development-host
+  debug-mode: true
+
+# some common config values
+# ...

@@ -1,0 +1,11 @@
+@extends:
+  - %CONFIG_DIR%global.yml
+
+debug: false
+
+database:
+  user: prod
+  pass: prod
+  cache:
+    metadata: true
+    selecta: true

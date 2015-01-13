@@ -1,0 +1,4 @@
+foobar:
+  foo: bar
+  bar: foo
+  variable: %GLOBAL_VAR%

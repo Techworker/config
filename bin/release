@@ -1,0 +1,6 @@
+#!/usr/bin/sh
+SRC_DIR="`pwd`"
+cd "`dirname "$0"`"
+
+cd '..'
+sudo vendor/bin/phpunit

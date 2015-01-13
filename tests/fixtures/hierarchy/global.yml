@@ -1,0 +1,4 @@
+only_in_global: true
+database:
+  charset: UTF-8
+  dbname: app

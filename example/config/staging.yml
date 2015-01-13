@@ -1,0 +1,10 @@
+@extends:
+  - %CONFIG_DIR%/production.yml
+
+database:
+  username: staging
+  password: staging
+  host: staging-host
+
+# some common config values
+# ...

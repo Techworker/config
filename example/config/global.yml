@@ -1,0 +1,8 @@
+#global.yml
+# global config
+company:
+  name: Techworker
+  address:
+    street: Brandvorwerkkstr. 52-54
+    zip: 04275
+    country: Germany

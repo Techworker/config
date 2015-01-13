@@ -1,0 +1,6 @@
+@extends:
+  - %CONFIG_DIR%development.yml
+
+@unset:
+  - debug
+  - database::cache
